@@ -68,22 +68,41 @@ main{
     display: inline-block;
 }
 .incompleto{
-    
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
 }
 .testo{
     padding-left: 10px;
 }
 .info{
     border-radius: 12px;
-    width: 90px;
-    padding: 1px;
+    padding: 5px 10px;
     color: white;
     text-align: center;
     display: inline-block;
 }
+/*cambio di colori*/
 .editorial{
     background-color: rgb(69, 171, 234);
 }
 .goal{
     background-color: rgb(156, 114, 228);
+}
+.recruiting{
+    background-color: rgb(92, 189, 165);  
+}
+.mobile {
+    background-color: rgb(242, 158, 51);
+}
+.website {
+    background-color: rgb(216, 99, 161);
+}
+.sales{
+    background-color: rgb(176, 201, 38);
 }
